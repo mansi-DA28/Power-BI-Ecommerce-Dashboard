@@ -38,7 +38,7 @@ profit, quantity sold, and customer behavior across states, categories, and paym
 | `Dashboard.pbix` | Power BI dashboard file |
 | `Orders (1).csv` | Raw orders data |
 | `Details (1).csv` | Raw order details data |
-| `dashboard_screenshot.png.png` | Preview image of the dashboard |
+| `Dashboard.screenshot.png` | Preview image of the dashboard |
 
 ## 🚀 How to Use
 1. Download `Dashboard.pbix`.
