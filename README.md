@@ -1,12 +1,12 @@
 # 🛒 E-Commerce Sales Dashboard (Power BI)
 
 ## 📌 Project Overview
-An interactive Power BI dashboard analyzing e-commerce sales data — covering revenue, 
+An interactive Power BI dashboard analyzing e-commerce sales data — covering revenue,
 profit, quantity sold, and customer behavior across states, categories, and payment modes.
 
 ## 🛠️ Tools Used
 - **Power BI Desktop**
-- **Excel** (Orders.xlsx, Details.xlsx as data sources)
+- **Excel / CSV** (Orders and Details data)
 
 ## 📊 Dashboard Highlights
 
@@ -14,34 +14,36 @@ profit, quantity sold, and customer behavior across states, categories, and paym
 - Total Sales Amount: 438K
 - Total Profit: 37K
 - Total Quantity Sold: 5,615
-- Average Order Value (AOV): 121K
+- Average Order Value (AOV): ₹876
 
 **Visuals Included:**
-- **Sum of Amount by State** – Revenue breakdown across Maharashtra, Madhya Pradesh, Uttar Pradesh, Delhi
-- **Sum of Quantity by Category** – Furniture, Clothing, Electronics distribution
+- **Sum of Amount by State** – Top 4 states by sales (Maharashtra, Madhya Pradesh, Uttar Pradesh, Delhi)
+- **Sum of Quantity by Category** – Clothing, Electronics, Furniture split
 - **Profit by Month** – Monthly profit trend (Jan–Dec)
-- **Sum of Profit by Sub-Category** – Printers, Bookcases, Saree, Accessories, Tables
-- **Sum of Amount by Customer** – Top customers by spend
+- **Sum of Profit by Sub-Category** – Top 5 sub-categories by profit (Printers, Bookcases, Saree, Accessories, Tables)
+- **Sum of Amount by Customer** – Top 4 customers by spend
 - **Sum of Quantity by Payment Mode** – Debit Card, EMI, Credit Card, COD, UPI split
+- **Slicers** – Filter the dashboard by Quarter and State
 
 ## 💡 Key Insights
-- Maharashtra generates the highest sales revenue among all states.
-- Printers is the most profitable sub-category, followed by Bookcases.
-- Cash on Delivery (COD) is the most preferred payment mode at 39%, followed by UPI at 19%.
-- Furniture leads in quantity sold by category (21%).
+- Maharashtra generates the highest sales revenue (102K), followed by Madhya Pradesh (87K) and Uttar Pradesh (38K).
+- Printers is the most profitable sub-category (8.6K), followed by Bookcases (6.5K).
+- Clothing accounts for ~63% of units sold, followed by Electronics (21%) and Furniture (17%).
+- Cash on Delivery (COD) is the most used payment mode (~44% of units), followed by UPI (~21%).
+- Profit is uneven across the year: May, July, September and December were loss-making months, while November was the strongest.
 
 ## 📁 Repository Contents
 | File | Description |
 |------|--------------|
 | `Dashboard.pbix` | Power BI dashboard file |
-| `Orders.xlsx` | Raw orders data |
-| `Details.xlsx` | Raw order details data |
-| `dashboard_screenshot.png` | Preview image of the dashboard |
+| `Orders (1).csv` | Raw orders data |
+| `Details (1).csv` | Raw order details data |
+| `dashboard_screenshot.png.png` | Preview image of the dashboard |
 
 ## 🚀 How to Use
 1. Download `Dashboard.pbix`.
 2. Open in Power BI Desktop.
-3. Refresh data connections if prompted (link to `Orders.xlsx` and `Details.xlsx`).
+3. If prompted, point the data source to `Orders (1).csv` and `Details (1).csv`.
 
 ---
 *This project was built as part of my data analytics portfolio.*
